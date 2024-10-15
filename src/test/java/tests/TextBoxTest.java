@@ -25,7 +25,7 @@ public class TextBoxTest {
         $("[id=userName]").setValue("Alex");
         $("#userEmail").setValue("arh@yandex.ru");
         $("#currentAddress").setValue("Moscow");
-        $("#permanentAddress").setValue("Moscow 2");
+        $("#permanentAddress").setValue("Moscow 2").scrollTo();
 
         $("#submit").click();
 
